@@ -4,6 +4,7 @@ int main(void){
   printf("git status : ワークツリーとインデックスの状態を確認する\n");
   printf("git add <filename>   : インデックスに登録する\nスペース区切りで複数指定できる\n");
   printf("git add . : 全てのファイルをインデックスに登録する\n");
-  printf("git commit -m \"<コメント>\" : コミットする\n");
+  printf("git commit -m \"<コメント>\" : リポジトリにコミットする\n");
+  printf("git log : リポジトリの変更履歴\n");
   return 0;
 }
